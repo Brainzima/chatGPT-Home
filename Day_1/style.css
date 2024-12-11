@@ -1,0 +1,76 @@
+body{
+    background-color: aliceblue;
+}
+.row1{
+    width: 100vw;
+    display: flex;
+}
+.left-col {
+    width: 50vw;
+}
+.right-col{
+    width: 45vw;
+    text-align: end;
+}
+
+.row2{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+
+}
+.input-div{
+    /* background-color: antiquewhite; */
+}
+.input-field{
+    width: 700px;
+    height: 70px;
+    border: none;
+    background-color: #dce0e6;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.input-bottom-layer{
+    width: 704px;
+    display: flex;
+    height: 50px;
+    border: none;
+    background-color: #dce0e6;
+    border-radius: 0px 0px 25px 25px;
+}
+.attach{
+    width: 50%;
+}
+.attach > i{
+    margin-left: -280px;
+    padding-top: 10px;
+}
+.sendBtn{
+    width: 50%;
+    float: right;
+}
+.sendBtn > i{    
+    width: 40px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-right: -280px;
+    padding-top: 10px;
+}
+
+.btn-div{
+    margin: 10px;
+}
+.btn-div > button{
+    height: 34px;
+    border: 1px solid gray;
+    border-radius: 50px;
+}
+
+.row3{
+    text-align: center;
+}
